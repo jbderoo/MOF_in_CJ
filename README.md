@@ -6,4 +6,4 @@ B_chainAllA.py is used to create a pdb file where all of the CJ monomers have th
 
 C_punchout.py is used to drastically cut down on the size of the MOF before doing clash detection calculations, as these are fairly computationally expensive. A radius is created where everything much larger than the pore is immediately thrown out.
 
-D_radius_pore_cubtc.py then does clash detection and further refines random little edge effects of the MOF@CJ interaction. It also reports back the theoretical upper limit of Cu inside the nanopore, 2059.
+D_clash_detection_pore_cubtc.py then does clash detection and further refines random little edge effects of the MOF@CJ interaction. It also reports back the theoretical upper limit of Cu inside the nanopore, 2059.
