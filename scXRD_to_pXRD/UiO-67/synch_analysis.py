@@ -51,7 +51,7 @@ store = np.zeros(shape=[12,n])
 for i in range(11, 12):
     insert = str(i).zfill(2)
 # ---- open img and convert to data matrix -----
-    img_path = f'../synchrotron_04142022/1E-01_snap_00{i}.img'
+    img_path = f'1E-01_snap_00{i}.img' # simplified to best image in the group
     
  
 
