@@ -1,3 +1,4 @@
+![Logo](Graphical_Abstract.png "Graphical Abstract")
 Computational determination of the maximum amount of CuBTC that can fit inside of a CJ nanopore. This is used to help compute the packing fraction as the upper limit number that could fit inside the pore.
 
 A_center_mof.py is used to take the tiled CuBTC MOF (in a 7x7x5 unit cell size) and center it. These files are cubtc_775_no_dups.pdb and cubtc_775_no_dups_centered.pdb, respectively.
