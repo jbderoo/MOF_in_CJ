@@ -1,5 +1,5 @@
 ![Logo](Graphical_Abstract.png "Graphical Abstract")
-  Cu_in_pore_calcs:
+### Cu_in_pore_calcs: ###
   Computational determination of the maximum amount of CuBTC that can fit inside of a CJ nanopore. This is used to help compute the packing fraction as the upper limit number that could fit inside the pore.
   
   A_center_mof.py is used to take the tiled CuBTC MOF (in a 7x7x5 unit cell size) and center it. These files are cubtc_775_no_dups.pdb and cubtc_775_no_dups_centered.pdb, respectively.
@@ -10,5 +10,5 @@
   
   D_clash_detection_pore_cubtc.py then does clash detection and further refines random little edge effects of the MOF@CJ interaction. It also reports back the theoretical upper limit of Cu inside the nanopore, 2059.
 
-scXRD_to_PXRD:
+### scXRD_to_PXRD: ###
   Example of how the data collected (images in results/) is turned into a pXRD plot for comparison. This specific example is the 90 degree rotation analysis.
