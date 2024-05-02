@@ -152,3 +152,9 @@ for i, r in enumerate(ra):
 
 # Finish the GIF
 writer.close()
+
+# compression command:
+#  gifsicle -O2 --lossy=80 azimithal_integration_V6.gif -o aziint_compressed2.gif
+#
+# where to find:
+# https://www.lcdf.org/gifsicle/
