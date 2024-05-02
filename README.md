@@ -1,4 +1,4 @@
-![Logo](Graphical_Abstract.png "Graphical Abstract")
+![Logo](images/Graphical_Abstract.png "Graphical Abstract")
 ### Cu_in_pore_calcs: ###
   Computational determination of the maximum amount of CuBTC that can fit inside of a CJ nanopore. This is used to help compute the packing fraction as the upper limit number that could fit inside the pore.
   
