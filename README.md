@@ -13,5 +13,7 @@
 ### scXRD_to_PXRD: ###
   Example of how the data collected (images in results/) is turned into a pXRD plot for comparison. This specific example is the 90 degree rotation analysis. Included are images and scripts for doing the CuBTC and UiO-67 analysis in their respective directories. These scripts rely on the Fabio package (https://pypi.org/project/fabio/). I only use it to extract the data from the .img files, I could not get their automatic integration tools to work properly for me (likely user error). I wrote my own, they're found in xrd_tools.py, which is found in each of these subdirectories.
 
+  To help explain the idea of azimuthal integration (especially if the paper description and still image wasn't clear), I've prepared this gif. As we start in the center of the image and walk outwards, we average the radius. We can the convert this distance from the center to a literal, physical distance, then use Brag's law and geometry to compute a 2theta. We then can compare this computed, extracted pXRD to the expected pXRD to verify our material of interest is actually present (CuBTC!).
+
 ![Azimuthal Integration](images/aziint_compressed.gif "Azimuthal Integration GIF")
 
