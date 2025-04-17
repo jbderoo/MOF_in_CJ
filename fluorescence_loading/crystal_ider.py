@@ -106,4 +106,6 @@ plt.legend()
 plt.xlabel('min')
 plt.ylabel('d fluoresence')
 plt.title('change in fluoresence over time')
+plt.xticks(ticks=np.arange(0, 31, 5))
+plt.tight_layout()
     
